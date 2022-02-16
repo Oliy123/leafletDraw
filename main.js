@@ -132,7 +132,7 @@ function setData(e) {
     });
     // Clear drawn items layer
     drawnItems.closePopup();
-    // drawnItems.closePopup,{maxhight:50%}();
+    // drawnItems.closePopup,{maxheight:50%}();
     drawnItems.clearLayers();
   }
 }
