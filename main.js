@@ -48,7 +48,7 @@ function createFormPopup() {
   +'<input type="button" value="Submit" id="submit">'
   +'<input type="reset" value="Reset">'
   +'</form>'
-  drawnItems.bindPopup(popupContent).openPopup();
+  drawnItems.bindPopup(popupContent,{maxHeight:600, minWidth:50}).openPopup();
 }
 
 //change the event listener code to this
