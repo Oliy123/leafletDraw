@@ -6,7 +6,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     maxZoom: 18,
     id: 'mapbox/streets-v11',
     tileSize: 512,
-    zoomOffset: -1,
+    zoomOffset: -1 ,
     accessToken: 'pk.eyJ1Ijoib2xpeWFkIiwiYSI6ImNrdjdsbnYybjhhbzcydnQ5dGRjdWM3ODIifQ.x-icjc5_gVuDi8MWOqzw3g'
 }).addTo(map);
 L.easyButton('fas fa-info', function () {
